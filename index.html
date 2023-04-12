@@ -4,17 +4,27 @@
     <meta charset="UTF-8"><!-- configuracion del lenguaje -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- responsivo -->
+    <link rel="stylesheet" href="./css/index.css">
     <title>Html</title><!-- titulo de la ventana del navegador -->
+
+    <style>
+        
+        p{
+            color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+
+    </style>
 </head>
 <body><!-- cuerpo de la pagina web -->
 
     <header>
-        <h2>soy el Header de la pagina</h2>
+        <h2 class="centrar">soy el Header de la pagina</h2>
     </header>
     <nav>
-        <h2>soy la navegacion</h2>
-        <!-- Listas desordenadas -->
-        <ul>
+        <h2 class="soloYo">soy la navegacion</h2>
+        <!-- Listas desordenadas --> 
+        <ul class="centrar">
             <!-- Item list -->
             <li>
                 <!-- anclas: permiten la navegacion -->
@@ -29,7 +39,7 @@
         </ul>
     </nav>
     <main>
-        <h1>
+        <h1 style="color:green; font-size: 60px;">
             etiqueta de titulo nivel 1
         </h1>
 
@@ -50,10 +60,10 @@
             </p>
             </article>
 
-            <article>
+            <article class="soloYo">
                 <h3>Los alimentos</h3>
                 <img src="https://media.tycsports.com/files/2023/03/24/548718/lionel-messi-antonel-roccuzzo_416x234.webp" alt="Imagen de una alimentacion sana">
-            <p>
+            <p class="centrar otroParrafo miColor" >
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia doloribus obcaecati optio nostrum voluptatum voluptatem, quis laudantium numquam assumenda qui ipsa, enim blanditiis, minus tempora minima sit hic accusantium distinctio.
             </p>
             <p>
@@ -144,6 +154,8 @@
     </main>
     <footer>
         <h2>soy el pie de pagina</h2>
+
+        
     </footer>
 
 </body>
